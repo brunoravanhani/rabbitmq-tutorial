@@ -1,0 +1,9 @@
+# shell 1 - save the log on file
+python receive_logs.py > logs_from_rabbit.log
+
+# shell 2  show log on screen
+python receive_logs.py
+
+# shell 3 - emit a log
+python emit_log.py
+
